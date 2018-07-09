@@ -2,7 +2,7 @@ import UIKit
 import CoreData
 
 class ViewController: UITableViewController{
-    
+    // variables
     var appDelegate: AppDelegate? = nil
     var context: NSManagedObjectContext? = nil
     var entity: NSEntityDescription? = nil
